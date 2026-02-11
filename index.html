@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Generic Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+        header, footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            padding: 20px;
+        }
+        section {
+            flex: 3;
+            background: white;
+            padding: 20px;
+            margin-right: 10px;
+        }
+        aside {
+            flex: 1;
+            background: #ddd;
+            padding: 15px;
+        }
+        figure {
+            text-align: center;
+        }
+        mark {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>GENERIC STORE</h1>
+    <p>Your daily needs, delivered smartly</p>
+    <p>Store opened on <time datetime="2024-01-01">1 January 2024</time></p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Offers</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+
+    <section>
+        <article>
+            <header>
+                <h2>Featured Product</h2>
+            </header>
+
+            <p>
+                Our <mark>Organic Grocery Pack</mark> is the best choice for a
+                healthy lifestyle.
+            </p>
+
+            <figure>
+                <img src="https://via.placeholder.com/300" alt="Product Image">
+                <figcaption>Figure: Organic Grocery Pack</figcaption>
+            </figure>
+
+            <details>
+                <summary>View Product Details</summary>
+                <p>
+                    This pack includes fresh vegetables, grains, and fruits
+                    sourced directly from farmers.
+                </p>
+            </details>
+
+            <h3>Product Advertisement (Audio)</h3>
+            <audio controls>
+                <source src="sample-audio.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+
+            <h3>Store Promo Video</h3>
+            <video controls width="320">
+                <source src="sample-video.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+
+            <footer>
+                <p>Product reviewed by Store Manager</p>
+            </footer>
+        </article>
+    </section>
+
+    <aside>
+        <h3>Quick Info</h3>
+        <ul>
+            <li>Free Home Delivery</li>
+            <li>24x7 Support</li>
+            <li>Easy Returns</li>
+        </ul>
+    </aside>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Generic Store | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
